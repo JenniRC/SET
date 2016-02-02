@@ -1,0 +1,82 @@
+package P1;
+/*Jenifer Rodriguez Casas - 20150203 */
+
+
+public class Item {
+
+	private String type;
+
+	private String title;
+
+	private String author;
+
+	private int year;
+
+	private String kind;
+
+	private int stock;
+
+	private float price;
+
+
+	public Item(String type, String title, String author, int year,
+			String kind, int stock, float price) {
+		super();
+		this.type = type;
+		this.title = title;
+		this.author = author;
+		this.year = year;
+		this.kind = kind;
+		this.stock = stock;
+		this.price = price;
+	}
+
+	private String getType() {
+		return type;
+	}
+	private void setType(String type) {
+		this.type = type;
+	}
+	private String getTitle() {
+		return title;
+	}
+	private void setTitle(String title) {
+		this.title = title;
+	}
+	private String getAuthor() {
+		return author;
+	}
+	private void setAuthor(String author) {
+		this.author = author;
+	}
+	private int getYear() {
+		return year;
+	}
+	private void setYear(int year) {
+		this.year = year;
+	}
+	private String getKind() {
+		return kind;
+	}
+	private void setKind(String kind) {
+		this.kind = kind;
+	}
+	private int getStock() {
+		return stock;
+	}
+	private void setStock(int stock) {
+		this.stock = stock;
+	}
+	private float getPrice() {
+		return price;
+	}
+	private void setPrice(float price) {
+		this.price = price;
+	}
+	public String toString (){
+		return (this.type + this.title +this.author+ 
+				this.year+ this.kind +this.stock+ this.price);
+	}
+
+
+}
